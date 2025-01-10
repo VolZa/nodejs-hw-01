@@ -2,11 +2,9 @@ import { readContacts } from '../utils/readContacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
 import { countContacts } from './countContacts.js';
 
-
-
 export const removeLastContact = async () => {
     const count = await countContacts();
-    console.log('Contakts count ', count);
+
     if (count > 0) {
     const contacts = await readContacts();
     contacts.pop(); // Видаляємо останній елемент

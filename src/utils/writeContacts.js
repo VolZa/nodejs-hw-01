@@ -11,12 +11,4 @@ export const writeContacts = async (updatedContacts) => {
     }    
 };
 
-// Виклик функції
-// const contacts = [
-//     { id: 1, name: 'Halyna', phone: '+380501234567' },
-//     { id: 2, name: 'Andrii', phone: '+380671234567' }
-// ];
-
-// await writeContacts(contacts);
-
 export default writeContacts;

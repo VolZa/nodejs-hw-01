@@ -1,6 +1,5 @@
 import { PATH_DB } from '../constants/contacts.js';
 import fs  from 'fs/promises';
-// const fs = require("fs/promises");
 
 export const readContacts = async () => {
     try {
@@ -11,13 +10,5 @@ export const readContacts = async () => {
         return [];
     }
 };
-
-// console.log('PATH_DB:', PATH_DB);
-
-// Використання readContacts
-// (async () => {
-//     const contacts = await readContacts();
-//     console.log(contacts);
-//   })();
 
 export default readContacts;
