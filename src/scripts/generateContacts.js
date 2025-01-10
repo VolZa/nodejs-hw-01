@@ -11,7 +11,7 @@ const generateContacts = async (number) => {
     return contacts;
 };
 
-const contacts = await generateContacts(3);
-console.log(contacts);
+const contacts = await generateContacts(5);
+
 await writeContacts(contacts);
 
